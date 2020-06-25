@@ -1,0 +1,163 @@
+
+body{
+
+    
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        background-image:url(images/back4.jpg) ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+      background-size: cover;
+      
+       
+    
+}
+.heading{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+   
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(36,48,94);
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+  
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  
+  .overlay a:hover {
+    color: black;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+ 
+
+  .profile{
+
+    padding-bottom: 30px;
+  
+  }
+
+/* hello*/
+
+  .row-content{
+
+  min-height: 100px;
+
+    padding: 50px 0px;
+    margin: 0px auto;
+  }
+
+  h1.word{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+     color: #9201be;
+     font-size: 60px;
+  }
+
+  .intro{
+
+   color:white ;
+   text-align: center;
+
+  }
+
+
+  
+.int{
+
+    color: #9201be;
+  }
+
+  .domain{
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  .social i{
+
+    color: white;
+    font-size: 50px;
+    padding: 20px ;
+    
+  }
+
+  .social{
+
+    text-align: center;
+  }
+
+  footer{
+
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    position: relative;
+    padding: 2rem 2rem;
+    
+  }
+
+.card{
+
+  border-radius: 1cm;
+  background-image: linear-gradient(#4c0861,#040423);
+  color: aliceblue;
+}
+
+.card-header{
+
+  
+  border-radius: 1cm;
+}
+
+.contact i{
+
+  font-size: 50px;
+
+}
+button{
+
+  width: 25%;
+}
+
+
